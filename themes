@@ -1,0 +1,1 @@
+manga --full-screen --borderless --auto-zoom --hide-pointer --sort filename --reverse --info '[ %F- \> "`cat .progress 2>/dev/null`-" ] && echo %F > .progress; [ 1 -eq %u ] && echo END OF CHAPTER'
